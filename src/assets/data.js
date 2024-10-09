@@ -1,0 +1,104 @@
+export const data = [
+  {
+    question: "React is a JavaScript library for building ___.",
+    options: {
+      1: "User interface",
+      2: "Connectivity",
+      3: "Database",
+      4: "Design Platform",
+    },
+    ans: "1",
+  },
+  {
+    question:
+      "User interface developed with React is made of small and isolated pieces of code called ___.",
+    options: {
+      1: "Hook",
+      2: "Function",
+      3: "Snippet",
+      4: "Component",
+    },
+    ans: "4",
+  },
+  {
+    question: "What are the two main types of components in React.js?",
+    options: {
+      1: "Class based and functional",
+      2: "Functional and stateful",
+      3: "UI and container",
+      4: "Presentational and container",
+    },
+    ans: "1",
+  },
+  {
+    question: "A React component takes in parameters called ___?",
+    options: {
+      1: "Attributes",
+      2: "Events",
+      3: "Props",
+      4: "Children",
+    },
+    ans: "3",
+  },
+  {
+    question: "To write HTML in react we make use of ___?",
+    options: {
+      1: "React.createElement()",
+      2: "JSX",
+      3: "HTTP",
+      4: "XML",
+    },
+    ans: "2",
+  },
+  {
+    question: "JSX Stands for ___?",
+    options: {
+      1: "JavaScript Extension",
+      2: "JavaScript XML",
+      3: "JavaScript Extreme",
+      4: "JavaScript XScript",
+    },
+    ans: "2",
+  },
+  {
+    question: "React DOM uses ___ case property naming convention?",
+    options: {
+      1: "Pascal",
+      2: "Snake",
+      3: "Camel",
+      4: "Kebab",
+    },
+    ans: "3",
+  },
+  {
+    question: "___ are the smallest building blocks of React apps.",
+    options: {
+      1: "JSX",
+      2: "Components",
+      3: "Tags",
+      4: "Kebab",
+    },
+    ans: "1",
+  },
+  {
+    question: "Applications built with just React usually have a single ___?",
+    options: {
+      1: "Parent Node",
+      2: "Components",
+      3: "Constructor",
+      4: "Root DOM node",
+    },
+    ans: "4",
+  },
+  {
+    question:
+      "Which component lifecycle method runs after the component output has been rendered to the DOM",
+    options: {
+      1: "componentMounted()",
+      2: "componentWillUnmount()",
+      3: "componentDidRender()",
+      4: "componentDidMount()",
+    },
+    ans: "4",
+  },
+];
