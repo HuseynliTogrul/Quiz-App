@@ -28,7 +28,7 @@ function Quiz({ data }) {
                     />
                 </div>
             ) : (
-                <div className="m-auto w-[500px] flex justify-center flex-col h-[85vh]">
+                <div className="m-auto w-[500px] max-sm:w-auto max-sm:px-5 flex justify-center flex-col h-[85vh]">
                     <h2 className='text-2xl font-semibold mb-5'>{index + 1}. {question.question}</h2>
                     <div className="">
                         <CheckAnswer
