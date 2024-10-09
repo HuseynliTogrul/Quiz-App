@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { data } from '../assets/data';
 import CheckAnswer from './CheckAnswer';
 import NextQuestion from './NextQuestion';
 import EndQuizQuestion from './EndQuizQuestion';
 
-function Quiz() {
+function Quiz({ data }) {
     const [index, setIndex] = useState(0);
     const [question, setQuestion] = useState(data[index]);
     const [selectedOption, setSelectedOption] = useState(null);
@@ -25,6 +24,7 @@ function Quiz() {
                         setScore={setScore}
                         setLock={setLock}
                         setResult={setResult}
+                        data={data}
                     />
                 </div>
             ) : (

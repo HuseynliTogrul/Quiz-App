@@ -1,7 +1,6 @@
 import React from 'react'
-import { data } from '../assets/data';
 
-function NextQuestion({ setSelectedOption, setQuestion, index, setIndex, lock, setLock, setResult }) {
+function NextQuestion({ setSelectedOption, setQuestion, index, setIndex, lock, setLock, setResult, data }) {
     const next = () => {
         if (lock === true) {
             setSelectedOption(null);

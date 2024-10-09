@@ -1,7 +1,6 @@
 import React from 'react'
-import { data } from '../assets/data';
 
-function ResetQuiz({ setIndex, setQuestion, setScore, setLock, setResult }) {
+function ResetQuiz({ setIndex, setQuestion, setScore, setLock, setResult, data }) {
     const reset = () => {
         setIndex(0);
         setQuestion(data[0]);

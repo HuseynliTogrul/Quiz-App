@@ -1,8 +1,7 @@
 import React from 'react'
-import { data } from '../assets/data';
 import ResetQuiz from './ResetQuiz';
 
-function EndQuizQuestion({ score, setIndex, setQuestion, setScore, setLock, setResult }) {
+function EndQuizQuestion({ score, setIndex, setQuestion, setScore, setLock, setResult, data }) {
     return (
         <>
             <div className="flex justify-center items-center flex-col h-[85vh]">
@@ -18,6 +17,7 @@ function EndQuizQuestion({ score, setIndex, setQuestion, setScore, setLock, setR
                     setScore={setScore}
                     setLock={setLock}
                     setResult={setResult}
+                    data={data}
                 />
             </div>
         </>
